@@ -34,7 +34,8 @@ public class Main2Activity extends AppCompatActivity {
         phone.setText(i.getString("info3"));
         email.setText(i.getString("info4"));
 
-        welc.setText("welcome" + name);
+        welc.setText("Welcome " + name.getText().toString() + " !!");
+
 
 
         ImageButton back = findViewById(R.id.imageButton);

@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText name = findViewById(R.id.editText);
         final EditText age = findViewById(R.id.editText2);
         final EditText job = findViewById(R.id.editText3);
-       final EditText email = findViewById(R.id.editText4);
-        final EditText phone = findViewById(R.id.editText5);
+        final EditText phone = findViewById(R.id.editText4);
+        final EditText email = findViewById(R.id.editText5);
        final Button next = findViewById(R.id.button);
 
         next.setOnClickListener(new View.OnClickListener() {

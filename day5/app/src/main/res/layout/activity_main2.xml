@@ -8,16 +8,18 @@
     tools:context=".Main2Activity">
 
 
-
     <TextView
         android:id="@+id/background"
         android:layout_width="405dp"
         android:layout_height="98dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
+        android:layout_marginTop="85dp"
         android:layout_marginBottom="549dp"
-        android:background="#4F8CA8" />
+       />
+
 
     <TextView
         android:id="@+id/textView"
@@ -26,7 +28,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="-10dp"
-        android:layout_marginBottom="581dp"
+        android:layout_marginBottom="617dp"
         android:background="#0E4240"
         android:text="Your curriculum vitae"
         android:textAlignment="center"
@@ -41,78 +43,73 @@
         android:layout_height="66dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="566dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="599dp"
         android:background="@drawable/customborder"
         android:orientation="vertical"
         android:textColor="#090212" />
 
-
     <TextView
         android:id="@+id/age"
-        android:layout_width="298dp"
+        android:layout_width="252dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="9dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="31dp"
         android:layout_marginBottom="366dp"
         android:background="#40B1C8E1"
+        android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
         android:textColor="#0E0E0E"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/phone"
-        android:layout_width="244dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="25dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="27dp"
         android:layout_marginBottom="235dp"
         android:background="#40B1C8E1"
+        android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
         android:textColor="#0E0E0E"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/email"
-        android:layout_width="266dp"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="174dp"
         android:background="#40B1C8E1"
+        android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
         android:textColor="#0E0E0E"
-        android:textSize="24sp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="71dp"
-        android:layout_height="525dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="334dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="77dp"
-        app:srcCompat="@drawable/border" />
+        android:textSize="18sp" />
 
 
     <TextView
         android:id="@+id/Name"
         android:layout_width="189dp"
         android:layout_height="54dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="256dp"
+        android:layout_marginEnd="270dp"
         android:layout_marginBottom="434dp"
+        android:fontFamily="sans-serif-light"
         android:text="Name :"
         android:textAlignment="center"
         android:textColor="#0E0E0E"
@@ -123,24 +120,28 @@
         android:id="@+id/Age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="317dp"
+        android:layout_marginEnd="270dp"
         android:layout_marginBottom="373dp"
+        android:fontFamily="sans-serif-light"
         android:text="Age :"
         android:textAlignment="center"
         android:textColor="#0E0E0E"
-        android:textSize="28sp"
+        android:textSize="30sp"
         android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/Job"
         android:layout_width="189dp"
         android:layout_height="54dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="270dp"
         android:layout_marginBottom="296dp"
+        android:fontFamily="sans-serif-light"
         android:text="Job :"
         android:textAlignment="center"
         android:textColor="#0E0E0E"
@@ -151,10 +152,12 @@
         android:id="@+id/Phone"
         android:layout_width="189dp"
         android:layout_height="54dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="236dp"
+        android:layout_marginEnd="270dp"
         android:layout_marginBottom="226dp"
+        android:fontFamily="sans-serif-light"
         android:text="Phone :"
         android:textAlignment="center"
         android:textColor="#0E0E0E"
@@ -166,10 +169,12 @@
         android:id="@+id/Email"
         android:layout_width="226dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="237dp"
+        android:layout_marginEnd="270dp"
         android:layout_marginBottom="171dp"
+        android:fontFamily="sans-serif-light"
         android:text="Email :"
         android:textAlignment="center"
         android:textColor="#0E0E0E"
@@ -178,44 +183,38 @@
 
     <TextView
         android:id="@+id/job"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="299dp"
-        android:background="#40B1C8E1"
-        android:text="TextView"
-        android:textAlignment="viewStart"
-        android:textColor="#0E0E0E"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="45dp"
-        android:background="#0E4240"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="283dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="128dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="299dp"
+        android:background="#40B1C8E1"
+        android:fontFamily="monospace"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="29dp"
         android:layout_marginBottom="442dp"
         android:background="#40B1C8E1"
+        android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="textStart"
         android:textColor="#0E0E0E"
-        android:textSize="24sp" />
+        android:textSize="20sp"
+        android:textColorHint="#162A4C"/>
 
     <Button
         android:id="@+id/button2"
@@ -243,16 +242,21 @@
 
     <TextView
         android:id="@+id/welc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="655dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="651dp"
         android:text="TextView"
-        android:textSize="30sp" />
+        android:textAlignment="textStart"
+        android:textColor="#61ACCD"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 
 
 </RelativeLayout>
