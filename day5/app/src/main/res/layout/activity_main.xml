@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cv"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="97dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginBottom="641dp"
+        android:text="Name :"
+        android:textColor="#0B0A0B"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="97dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="596dp"
+        android:text="Age :"
+        android:textColor="#0B0A0B"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="97dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginBottom="532dp"
+        android:text="Your job :"
+        android:textColor="#0B0A0B"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginBottom="472dp"
+        android:text="Phone number :"
+        android:textColor="#0B0A0B"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="97dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="398dp"
+        android:text="Email :"
+        android:textColor="#0B0A0B"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginBottom="644dp"
+        android:background="#7CDBD5E3"
+        android:ems="5"
+        android:hint="Your name"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginBottom="593dp"
+        android:background="#7CDBD5E3"
+        android:ems="5"
+        android:hint="Your age"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="535dp"
+        android:background="#7CDBD5E3"
+        android:ems="5"
+        android:hint="Your job"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="470dp"
+        android:background="#7CDBD5E3"
+        android:ems="10"
+        android:hint="Your phone"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginBottom="402dp"
+        android:background="#7CDBD5E3"
+        android:ems="10"
+        android:hint="Your email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textVieww"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="683dp"
+        android:text="Your curriculum vitae "
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/next"
+        android:text=""
+        android:backgroundTint="#5B6ABC"
+        android:shadowColor="#080112"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="107dp"
+        android:layout_height="721dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-19dp"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="98dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/avatar" />
+
+
+</RelativeLayout>
+

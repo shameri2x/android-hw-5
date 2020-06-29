@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prolect"
+    tools:context=".Main3Activity">
+
+
+<TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="686dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="grade calculater"
+        android:textColor="#100101"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="monospace"
+        android:text="Quizes:"
+        android:textAlignment="center"
+        android:textColor="#020005"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="142dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="447dp"
+        android:fontFamily="monospace"
+        android:text="Homework:"
+        android:textAlignment="center"
+        android:textColor="#020005"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="166dp"
+        android:layout_height="63dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="monospace"
+        android:text="Mid term:"
+        android:textAlignment="center"
+        android:textColor="#020005"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="263dp"
+        android:fontFamily="monospace"
+        android:text="Final:"
+        android:textAlignment="center"
+        android:textColor="#020005"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="114dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="89dp"
+        android:background="#4853A6DD"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="calcuate"
+        android:textColor="#FF0505"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="108dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="579dp"
+        android:background="#7D8183"
+        android:ems="10"
+        android:hint="15%Type.."
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="108dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="472dp"
+        android:background="#7D8183"
+        android:ems="10"
+        android:hint="25%Type.."
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="108dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="357dp"
+        android:background="#7D8183"
+        android:ems="10"
+        android:hint="30%Type.."
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="108dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="254dp"
+        android:background="#7D8183"
+        android:ems="10"
+        android:hint="30%Type.."
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="172dp"
+        android:text="    "
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="28dp"
+        android:text="Reset"
+        android:background="#56425553"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
