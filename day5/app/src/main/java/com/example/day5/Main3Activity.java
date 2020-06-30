@@ -2,6 +2,7 @@ package com.example.day5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -25,6 +26,15 @@ public class Main3Activity extends AppCompatActivity {
         final TextView result = findViewById(R.id.textView6);
         final    Button calc = findViewById(R.id.button2);
         final Button reset = findViewById(R.id.button);
+        final Button m = findViewById(R.id.Main) ;
+
+        m.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(Main3Activity.this,MainActivity.class);
+                startActivity(a);
+            }
+        });
 
         calc.setOnClickListener(new View.OnClickListener() {
             @Override

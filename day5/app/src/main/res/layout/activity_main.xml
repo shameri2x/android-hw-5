@@ -198,10 +198,13 @@
         android:layout_marginStart="206dp"
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="240dp"
-        android:background="@drawable/next"
-        android:text=""
-        android:backgroundTint="#5B6ABC"
-        android:shadowColor="#080112"/>
+        android:background="@drawable/buttun"
+        android:backgroundTint="#247E81"
+        android:fontFamily="monospace"
+        android:text="Next"
+        android:textSize="24dp"
+        android:textColor="#F2F6F6"/>
+
 
     <ImageView
         android:id="@+id/imageView4"

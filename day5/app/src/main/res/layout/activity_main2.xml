@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/tem2"
+    android:background="@drawable/backgroundd"
     tools:context=".Main2Activity">
 
 
@@ -63,7 +63,7 @@
         android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textColor="#0E0E0E"
+        android:textColor="#0280BA"
         android:textSize="20sp" />
 
     <TextView
@@ -80,7 +80,7 @@
         android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textColor="#0E0E0E"
+        android:textColor="#0280BA"
         android:textSize="20sp" />
 
     <TextView
@@ -96,7 +96,7 @@
         android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textColor="#0E0E0E"
+        android:textColor="#0280BA"
         android:textSize="18sp" />
 
 
@@ -195,7 +195,7 @@
         android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="viewStart"
-        android:textColor="#0E0E0E"
+        android:textColor="#0280BA"
         android:textSize="20sp" />
 
     <TextView
@@ -212,33 +212,43 @@
         android:fontFamily="monospace"
         android:text="TextView"
         android:textAlignment="textStart"
-        android:textColor="#0E0E0E"
+        android:textColor="#0280BA"
         android:textSize="20sp"
         android:textColorHint="#162A4C"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
+        android:layout_width="203dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="101dp"
-        android:background="#5B759F"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/buttun"
+        android:backgroundTint="#247E81"
+        android:fontFamily="monospace"
         android:text="Grade calcuater"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold" />
+        android:textColor="#F2F6F6"
+        android:textSize="24dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="75dp"
-        android:layout_height="43dp"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginBottom="99dp"
-        android:background="@drawable/arrows"
-       android:backgroundTint="#919DE1" />
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/buttun"
+        android:backgroundTint="#247E81"
+        android:fontFamily="monospace"
+        android:text="Back"
+        android:textColor="#F2F6F6"
+        android:textSize="24dp" />
 
     <TextView
         android:id="@+id/welc"

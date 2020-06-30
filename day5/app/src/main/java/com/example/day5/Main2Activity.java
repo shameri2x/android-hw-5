@@ -3,6 +3,8 @@ package com.example.day5;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.location.Address;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +15,8 @@ import android.widget.TextView;
 import java.lang.annotation.IncompleteAnnotationException;
 
 public class Main2Activity extends AppCompatActivity {
+
+    private Object Address;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +38,37 @@ public class Main2Activity extends AppCompatActivity {
         phone.setText(i.getString("info3"));
         email.setText(i.getString("info4"));
 
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String mail = email.getText().toString();
+                Intent mail2 = new Intent(Intent.ACTION_SEND);
+                mail2.setType("message/rfc822");
+                mail2.putExtra(Intent.EXTRA_EMAIL,new String[]{mail});
+                mail2.setPackage("com.google.android.gm");
+                startActivity(mail2);
+            }
+        });
+
+        phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String phonee = phone.getText().toString();
+               Intent call = new Intent(Intent.ACTION_DIAL);
+               call.setData(Uri.parse("tel:"+phone));
+               startActivity(call);
+
+            }
+        });
+
+
+
         welc.setText("Welcome " + name.getText().toString() + " !!");
 
 
 
-        ImageButton back = findViewById(R.id.imageButton);
+        Button back = findViewById(R.id.button);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
