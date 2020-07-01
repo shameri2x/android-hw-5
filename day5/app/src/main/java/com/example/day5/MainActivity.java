@@ -4,14 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private static final int PICK_IMAGE = 100;
+    Uri imageUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
        final Button next = findViewById(R.id.button);
        final EditText pass = findViewById(R.id.editText7);
         final EditText confirmPass = findViewById(R.id.pass);
+        final Button pic = findViewById(R.id.picture);
+        final ImageView Pic = findViewById(R.id.imageView);
+
+        pic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openGallery ();
+            }
+        });
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,26 +63,31 @@ public class MainActivity extends AppCompatActivity {
 
 
                 else { confirmPass.setTextColor(Color.rgb(255,0,0 ));
-                        Toast.makeText(MainActivity.this,"PASSWORD ISN'T CORRECT",Toast.LENGTH_LONG).show();}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        Toast.makeText(MainActivity.this,"CONFIRM PASSWORD ISN'T CORRECT",Toast.LENGTH_LONG).show();}
 
 
 
             }
         });
+    }
+
+    public void openGallery (){
+        Intent gallery = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
+        startActivityForResult(gallery, PICK_IMAGE);
+    }
+    @Override
+    protected void onActivityResult(int requstCode, int resultCode, Intent data){
+        ImageView Pic = findViewById(R.id.imageView);
+        super.onActivityResult(requstCode, resultCode, data);
+        if(resultCode== RESULT_OK&& requstCode == PICK_IMAGE){
+            imageUri = data.getData();
+            Pic.setImageURI(imageUri);
+
+
+
+
+
+
+        }
     }
 }

@@ -3,6 +3,8 @@ package com.example.day5;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Address;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.lang.annotation.IncompleteAnnotationException;
@@ -17,6 +20,8 @@ import java.lang.annotation.IncompleteAnnotationException;
 public class Main2Activity extends AppCompatActivity {
 
     private Object Address;
+    private Object String;
+    private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +33,7 @@ public class Main2Activity extends AppCompatActivity {
         final TextView phone = findViewById(R.id.phone);
         final TextView email = findViewById(R.id.email);
         final TextView welc = findViewById(R.id.welc);
+        final ImageView picture = findViewById(R.id.imageView);
 
 
 
@@ -37,6 +43,8 @@ public class Main2Activity extends AppCompatActivity {
         job.setText(i.getString("info2"));
         phone.setText(i.getString("info3"));
         email.setText(i.getString("info4"));
+
+
 
         email.setOnClickListener(new View.OnClickListener() {
             @Override

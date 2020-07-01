@@ -229,7 +229,7 @@
         android:background="@drawable/buttun"
         android:backgroundTint="#247E81"
         android:fontFamily="monospace"
-        android:text="Grade calcuater"
+        android:text="Grade calculator"
         android:textColor="#F2F6F6"
         android:textSize="24dp" />
 
@@ -267,6 +267,16 @@
         android:textColor="#61ACCD"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="147dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="495dp" />
+    " />
 
 
 </RelativeLayout>
